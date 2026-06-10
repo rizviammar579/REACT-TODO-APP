@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@layer base {
+  * {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+  }
+}
+@theme {
+  --breakpoint-ax: 880px;
+  --breakpoint-bx: 530px;
+  --breakpoint-cx: 630px;
+}
